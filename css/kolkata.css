@@ -1,0 +1,22 @@
+header{
+	background-image: url("kol4.jpg");
+	padding: 50px;
+	background-size: 100%;
+	background-position: center;
+}
+h1{
+	text-align: center;
+	color:white;
+}
+p{
+	padding: 0.5%%;
+	font-weight: bold;
+}
+div p{
+	font-weight: normal;
+	padding: 1%;
+}
+img{
+	padding:2%;
+	
+}

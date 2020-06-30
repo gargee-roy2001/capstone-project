@@ -1,0 +1,14 @@
+h1,h2{
+	text-align: center;
+}
+h1{
+	padding:1.5%;
+	background: -moz-linear-gradient(top,#f2941f 0%,#ffffff 20%,#1e8134 80%);
+	background: -webkit-linear-gradient(#f2941f 0%,#ffffff 20%, #1e8134 80%);
+	background: -o-linear-gradient(#f2941f 0%,#ffffff 20%, #1e8134 80%);
+	background: linear-gradient(#f2941f %,#ffffff  10%, #1e8134 80%);
+	color:#1e1e9c;
+}
+h2{
+	color:green;
+}
