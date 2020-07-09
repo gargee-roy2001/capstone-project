@@ -3,14 +3,16 @@ header{
 	padding: 50px;
 	background-size: 100%;
 	background-position: center;
+	font-family: 'Baloo Bhai 2', cursive;
 }
 h1{
 	text-align: center;
 	color:white;
 }
 p{
-	padding: 0.5%%;
+	padding: 0.5%;
 	font-weight: bold;
+	font-family: 'Bree Serif', serif;;
 }
 div p{
 	font-weight: normal;
