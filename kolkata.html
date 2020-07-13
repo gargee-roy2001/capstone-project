@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="css/kolkata.css">
   <title>kolkatafoods</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&family=Bree+Serif&display=swap"
+    rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
 </head>
 
 <body>
@@ -56,17 +58,22 @@
       </form>
     </div>
   </nav>
-  <header> 
+  <header>
     <h1>KOLKATA</h1>
-
   </header>
+      <div class="container my-4">
+        <div id="typed-strings">
+          <h3><span id="typed"></span></h3>
+        </div>
+      </div>
   <div class="container my-2">
-  <p>We are sure that you must have heard of Roshogullas & Sondesh, and may have even tasted the magic of these cultural
-    inventions. But when it comes to Kolkata cuisine, there are endless surprises for foodies like you and us. Right
-    from the starters to the main course followed by dessert, the city offers culinary treats on a silver platter, and
-    we bet you can’t just have one! (Shotti!)</p>
-  <p>So whenever you take a trip to this paradise, make sure you go out and relish these 14 Bengali dishes that would
-    make for an absolutely lip-smacking full course meal!</p>
+    <p>We are sure that you must have heard of Roshogullas & Sondesh, and may have even tasted the magic of these
+      cultural
+      inventions. But when it comes to Kolkata cuisine, there are endless surprises for foodies like you and us. Right
+      from the starters to the main course followed by dessert, the city offers culinary treats on a silver platter, and
+      we bet you can’t just have one! (Shotti!)</p>
+    <p>So whenever you take a trip to this paradise, make sure you go out and relish these 14 Bengali dishes that would
+      make for an absolutely lip-smacking full course meal!</p>
   </div>
 
   <div class="container">
@@ -119,7 +126,7 @@
       and that is exactly the reason why you just can’t stop at one.</p>
 
     <h3>8.Tele Bhaja</h3>
-    <img src="img/kolkata/tele.jpg" alt="thumbnail">
+    <img class="tele" src="img/kolkata/tele.jpg"  alt="thumbnail">
     <p>A famous snack in the city that continues to successfully retain the essence of Bengali cuisine, Telebhaja are
       best enjoyed in monsoons with a cup of tea. From beguni and phuluri to peyaji and alur chop, these crunchy snacks
       covered in besan (corn-flour) have something for everyone’s taste buds.</p>
@@ -171,10 +178,21 @@
 
   <footer class="container">
     <p class="float-right"><a href="#">Back to top</a></p>
-    <p>© 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    <p> © 2017-2020 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
   </footer>
 
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ["KOLKATA", "A fusion of","Simplicity and Luxury"],
+      backSpeed: 50,
+      // smartBackspace: true,
+      backDelay: 2000,
+      startDelay: 1000,
+      typeSpeed: 50,
+      loop: true,
 
+    });
+  </script>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
